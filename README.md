@@ -1,2 +1,2 @@
-# model__17_zw_trynarny_pdbd
-Lec | Związek trynarny
+# model__17_klasyfikacja_pdbd
+Lec | Klasyfikacja elastyczna
