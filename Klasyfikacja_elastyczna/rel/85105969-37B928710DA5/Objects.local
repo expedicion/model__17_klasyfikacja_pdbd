@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="595D155A-CB1E-3100-D3FF-B9994B0A3D7B" name="PUBLIKACJA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="85105969-8F7A-81B4-A936-37B928710DA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="6FD828EB-F378-1CD9-CD79-3C42A5F49F55" name="TYP_PUBLIKACJI" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="85105969-8F7A-81B4-A936-37B928710DA5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="731E6EC6-9674-F948-C177-CFC77F41666A" name="PUBLIKACJA_TYP_PUBLIKACJI_FK" containerID="595D155A-CB1E-3100-D3FF-B9994B0A3D7B" refContainerID="6FD828EB-F378-1CD9-CD79-3C42A5F49F55" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="85105969-8F7A-81B4-A936-37B928710DA5" propertySourceId="6FD828EB-F378-1CD9-CD79-3C42A5F49F55" propertyTargetId="595D155A-CB1E-3100-D3FF-B9994B0A3D7B"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

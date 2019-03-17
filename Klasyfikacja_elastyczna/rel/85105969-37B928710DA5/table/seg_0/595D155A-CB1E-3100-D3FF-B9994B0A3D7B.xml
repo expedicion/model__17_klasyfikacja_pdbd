@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="595D155A-CB1E-3100-D3FF-B9994B0A3D7B" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>A9E698FC-3B4A-A134-CAB5-10445204B884</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_PUBLIKACJI" id="EE505447-B4EC-656D-3286-3F975152EA3D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>0C07591C-25B9-3434-5CE3-3D6CEAB762E5</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOD_TYPU_PUBLIKACJI" id="4662ABAF-4A58-64DC-5ABA-D9DA9B7021C4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:50:18 UTC</createdTime>
+<generatorID>AFBDFB93-DD56-D8B5-AD42-DBA55AC39D4A</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="731E6EC6-9674-F948-C177-CFC77F41666A" referredColumn="9DE4D810-CDB4-2F8A-B02C-E3EFAF6F4349"/>
+</associations>
+</Column>
+<Column name="TYTUL" id="30A3AC81-F40F-7898-B734-60447A58F269">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>4C0856FE-0716-A649-CC57-4DCE07AE036B</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LICZBA_STRON" id="826CD5FD-97F4-717F-E06A-120A8EB3BA8F">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>4B2418A1-989A-3144-C0CE-A74851CD97DE</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF38AFC3-5189-8931-4168-D10FDCBF51B6" name="PUBLIKACJA_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>AD3307E1-3494-26DD-9D00-ECD3F653EE45</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE505447-B4EC-656D-3286-3F975152EA3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="335A43FE-F813-7E84-EFDC-447D578BB05D" name="PUBLIKACJA_TYP_PUBLIKACJI_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:50:18 UTC</createdTime>
+<generatorID>C3848F63-68F6-D14E-CF88-C0C44D3CB8F9</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4662ABAF-4A58-64DC-5ABA-D9DA9B7021C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

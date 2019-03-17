@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FD828EB-F378-1CD9-CD79-3C42A5F49F55" name="TYP_PUBLIKACJI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>82CA2E2A-A4FF-1416-2E06-12DC92420C5B</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_TYPU_PUBLIKACJI" id="9DE4D810-CDB4-2F8A-B02C-E3EFAF6F4349">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>37918987-5620-D4FD-1938-42249ED4DC6B</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="CAA2E087-94D3-1F7F-51E3-01FA9BDF16D3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>F86F084F-01C4-A6A5-BF57-76536E0A58B3</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7715B868-2547-0BAD-5A90-CF066FD52F4B" name="TYP_PUBLIKACJI_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:02 UTC</createdTime>
+<generatorID>C56FF0F1-2A42-44E1-7A30-1B58A484D076</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DE4D810-CDB4-2F8A-B02C-E3EFAF6F4349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

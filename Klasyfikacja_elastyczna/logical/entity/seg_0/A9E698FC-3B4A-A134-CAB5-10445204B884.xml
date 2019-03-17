@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9E698FC-3B4A-A134-CAB5-10445204B884" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:41:48 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PUBLIKACJI" id="0C07591C-25B9-3434-5CE3-3D6CEAB762E5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:43:00 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="4C0856FE-0716-A649-CC57-4DCE07AE036B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:43:15 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LICZBA_STRON" id="4B2418A1-989A-3144-C0CE-A74851CD97DE">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:43:26 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_PUBLIKACJI" id="AFBDFB93-DD56-D8B5-AD42-DBA55AC39D4A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:50 UTC</createdTime>
+<generatorID>C3848F63-68F6-D14E-CF88-C0C44D3CB8F9</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<referedAttribute>37918987-5620-D4FD-1938-42249ED4DC6B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_PUBLIKACJI1" id="248653CB-8293-BCAB-FE4E-70F8F9FE5FAA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:49:50 UTC</createdTime>
+<generatorID>C3848F63-68F6-D14E-CF88-C0C44D3CB8F9</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<referedAttribute>0A849E2E-3F95-BD77-199A-E530643DFDD2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD3307E1-3494-26DD-9D00-ECD3F653EE45" name="PUBLIKACJA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:43:12 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C07591C-25B9-3434-5CE3-3D6CEAB762E5</attributeRef>
+<attributeRef>AFBDFB93-DD56-D8B5-AD42-DBA55AC39D4A</attributeRef>
+<attributeRef>248653CB-8293-BCAB-FE4E-70F8F9FE5FAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

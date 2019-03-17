@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A8673088-3ECD-A865-BF6F-6C35FC7D3B79" mainViewID="7B048496-92C2-2167-59AD-A02F0D4C9FA5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:26:48 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

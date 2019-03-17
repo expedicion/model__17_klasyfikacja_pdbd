@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8619A592-0401-BC0B-2391-B2955B9A6FCD">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:26:48 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

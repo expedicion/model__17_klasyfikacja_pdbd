@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D933890D-4C1F-11DE-3CE9-7839D7989CB4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:26:48 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

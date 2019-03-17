@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="C3848F63-68F6-D14E-CF88-C0C44D3CB8F9">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:43:54 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>AD3307E1-3494-26DD-9D00-ECD3F653EE45</sourcePk>
+<targetPk>C56FF0F1-2A42-44E1-7A30-1B58A484D076</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A9E698FC-3B4A-A134-CAB5-10445204B884</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>82CA2E2A-A4FF-1416-2E06-12DC92420C5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82CA2E2A-A4FF-1416-2E06-12DC92420C5B" name="TYP_PUBLIKACJI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:42:11 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_TYPU_PUBLIKACJI" id="37918987-5620-D4FD-1938-42249ED4DC6B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:42:28 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="F86F084F-01C4-A6A5-BF57-76536E0A58B3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:42:44 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C56FF0F1-2A42-44E1-7A30-1B58A484D076" name="TYP_PUBLIKACJI PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:42:42 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="85105969-8F7A-81B4-A936-37B928710DA5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37918987-5620-D4FD-1938-42249ED4DC6B</attributeRef>
+<attributeRef>0A849E2E-3F95-BD77-199A-E530643DFDD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

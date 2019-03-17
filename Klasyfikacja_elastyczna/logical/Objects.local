@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="82CA2E2A-A4FF-1416-2E06-12DC92420C5B" name="TYP_PUBLIKACJI" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A8673088-3ECD-A865-BF6F-6C35FC7D3B79" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A9E698FC-3B4A-A134-CAB5-10445204B884" name="PUBLIKACJA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A8673088-3ECD-A865-BF6F-6C35FC7D3B79" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="C3848F63-68F6-D14E-CF88-C0C44D3CB8F9" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="A8673088-3ECD-A865-BF6F-6C35FC7D3B79" propertySourceId="A9E698FC-3B4A-A134-CAB5-10445204B884" propertyTargetId="82CA2E2A-A4FF-1416-2E06-12DC92420C5B"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

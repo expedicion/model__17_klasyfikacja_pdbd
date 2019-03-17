@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Klasyfikacja_elastyczna" id="8BCD6023-9912-970B-36EF-6CCD008E6C0D" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-11 16:26:48 UTC</createdTime>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8BCD6023-9912-970B-36EF-6CCD008E6C0D</designId>
+</OSDM_Design>

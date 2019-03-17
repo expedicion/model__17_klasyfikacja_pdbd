@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="731E6EC6-9674-F948-C177-CFC77F41666A" containerWithKeyObject="595D155A-CB1E-3100-D3FF-B9994B0A3D7B" localFKIndex="335A43FE-F813-7E84-EFDC-447D578BB05D" name="PUBLIKACJA_TYP_PUBLIKACJI_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:50:18 UTC</createdTime>
+<generatorID>C3848F63-68F6-D14E-CF88-C0C44D3CB8F9</generatorID>
+<ownerDesignName>Klasyfikacja_elastyczna</ownerDesignName>
+<referredTableLongName>TYP_PUBLIKACJI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FD828EB-F378-1CD9-CD79-3C42A5F49F55</referredTableID>
+<keyObject>7715B868-2547-0BAD-5A90-CF066FD52F4B</keyObject>
+<referredKeyID>7715B868-2547-0BAD-5A90-CF066FD52F4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KOD_TYPU_PUBLIKACJI</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
